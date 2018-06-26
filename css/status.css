@@ -1,0 +1,150 @@
+body {
+  padding-bottom: 0; }
+
+.status-main-content {
+  margin-top: 96px; }
+  .status-main-content .posts {
+    margin-top: 24px; }
+    .status-main-content .posts .post {
+      padding: 0;
+      margin: 24px 0;
+      background: white;
+      position: relative;
+      text-decoration: none;
+      display: block;
+      transition: all 1s;
+      box-shadow: 0px 2px 2px #c9c9c9; }
+      .status-main-content .posts .post .title {
+        height: 56px;
+        margin: 0;
+        padding: 15px 24px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #f2f2f2;
+        background: #424242;
+        text-decoration: none;
+        display: block; }
+      .status-main-content .posts .post .content {
+        transition: all 0.5s;
+        overflow: hidden; }
+        .status-main-content .posts .post .content p {
+          padding: 36px 48px;
+          color: #424242;
+          font-size: 18px; }
+    .status-main-content .posts .status-post .content .project {
+      margin: 0 36px;
+      margin-top: 24px;
+      margin-bottom: 6px;
+      width: 1100px;
+      height: 24px; }
+      .status-main-content .posts .status-post .content .project p {
+        padding: 0;
+        float: left; }
+      .status-main-content .posts .status-post .content .project .question {
+        margin: 0;
+        width: 150px; }
+      .status-main-content .posts .status-post .content .project .answer {
+        margin: 0; }
+    .status-main-content .posts .status-post .content .employment {
+      width: 1100px;
+      margin: 0 36px;
+      float: left; }
+      .status-main-content .posts .status-post .content .employment p {
+        padding: 0;
+        float: left; }
+      .status-main-content .posts .status-post .content .employment .question {
+        margin: 0;
+        margin-bottom: 12px;
+        width: 150px; }
+      .status-main-content .posts .status-post .content .employment .answer {
+        margin: 0;
+        margin-bottom: 12px; }
+      .status-main-content .posts .status-post .content .employment .detail {
+        width: 100%;
+        height: 100%;
+        background: #f2f2f2;
+        margin: 0px;
+        padding: 16px 24px;
+        float: left;
+        clear: both; }
+        .status-main-content .posts .status-post .content .employment .detail .question {
+          width: 150px;
+          margin: 0; }
+        .status-main-content .posts .status-post .content .employment .detail .answer {
+          width: 850px;
+          margin: 0; }
+    .status-main-content .posts .status-post .content .note {
+      margin: 16px 36px;
+      float: left; }
+      .status-main-content .posts .status-post .content .note p {
+        padding: 0; }
+      .status-main-content .posts .status-post .content .note .answer {
+        font-size: 14px; }
+    .status-main-content .posts .project-post .content {
+      height: 300px;
+      position: relative; }
+      .status-main-content .posts .project-post .content .timeline .bar {
+        left: 42px;
+        top: 24px;
+        width: 12px;
+        height: 250px;
+        border-radius: 6px;
+        background: #f2f2f2;
+        position: absolute; }
+      .status-main-content .posts .project-post .content .timeline .target {
+        top: 20px;
+        left: -6px;
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        background: #424242;
+        position: absolute; }
+      .status-main-content .posts .project-post .content .projects {
+        margin: 36px 92px; }
+        .status-main-content .posts .project-post .content .projects .year {
+          font-size: 32px;
+          font-weight: bold; }
+        .status-main-content .posts .project-post .content .projects ul {
+          margin: 0;
+          padding: 0; }
+          .status-main-content .posts .project-post .content .projects ul li {
+            padding: 0;
+            font-size: 18px;
+            list-style: none; }
+    .status-main-content .posts .timeline-post .content {
+      height: 420px;
+      position: relative; }
+      .status-main-content .posts .timeline-post .content .timeline .bar {
+        left: 42px;
+        top: 24px;
+        width: 12px;
+        height: 370px;
+        border-radius: 6px;
+        background: #f2f2f2;
+        position: absolute; }
+      .status-main-content .posts .timeline-post .content .timeline .target {
+        top: 20px;
+        left: -6px;
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        background: #424242;
+        position: absolute; }
+      .status-main-content .posts .timeline-post .content .timeline .target:nth-child(1) {
+        top: 20px; }
+      .status-main-content .posts .timeline-post .content .timeline .target:nth-child(2) {
+        top: 124px; }
+      .status-main-content .posts .timeline-post .content .timeline .target:nth-child(3) {
+        top: 228px; }
+      .status-main-content .posts .timeline-post .content .projects {
+        margin: 36px 92px; }
+        .status-main-content .posts .timeline-post .content .projects .year {
+          font-size: 32px;
+          font-weight: bold; }
+        .status-main-content .posts .timeline-post .content .projects .project {
+          margin: 35px 0; }
+          .status-main-content .posts .timeline-post .content .projects .project p {
+            padding: 0;
+            margin: 0; }
+
+/*# sourceMappingURL=status.css.map */

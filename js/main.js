@@ -26,8 +26,31 @@ $(document).ready(function () {
 	 * When the toggler button is clicked
 	 * @return void
 	 */
-	Menu.$toggler.click(function () {
+	Menu.$toggler.click(function (e) {
+		e.preventDefault ();
+
 		Menu.toggle ();
+	});
+
+	$('.content-block').hover(
+		// Hover in
+		function () {
+			$(this).addClass ("active");
+		},
+		// Hover out
+		function () {
+			$(this).removeClass ("active");
+		}
+	);
+
+	$('a').each(function (index, element) {
+		var $element = $(element);
+
+		if ($element.attr('href') == '#') {
+			$element.click(function (e) {
+				e.preventDefault ();
+			});
+		}
 	});
 });
 

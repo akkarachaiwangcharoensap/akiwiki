@@ -1,0 +1,49 @@
+.main-footer {
+  margin-top: 86px;
+  padding-left: 0;
+  padding-right: 0; }
+  .main-footer .footer-view {
+    background-image: url("../image/background/footer-background.png");
+    background-size: 960px 540px;
+    background-repeat: repeat-x;
+    height: 540px;
+    position: relative; }
+    .main-footer .footer-view .canada-flag img {
+      right: 150px;
+      bottom: -22px;
+      width: 200px;
+      position: absolute; }
+  .main-footer .footer-content {
+    padding-top: 12px;
+    padding-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top: 8px solid #563a38;
+    background: #6e4a48; }
+    .main-footer .footer-content h1 {
+      font-size: 28px;
+      color: #f2f2f2; }
+    .main-footer .footer-content ul {
+      padding: 0; }
+      .main-footer .footer-content ul li {
+        margin: 6px 0;
+        padding: 0;
+        list-style: none; }
+        .main-footer .footer-content ul li a, .main-footer .footer-content ul li p {
+          text-decoration: none;
+          color: #f2f2f2;
+          font-size: 18px;
+          padding: 4px; }
+  .main-footer .copyright-notice {
+    padding: 12px;
+    background: #563a38; }
+    .main-footer .copyright-notice p {
+      margin: 0;
+      width: 100%;
+      font-size: 20px;
+      color: #f2f2f2;
+      text-align: center; }
+
+/*# sourceMappingURL=footer.css.map */
